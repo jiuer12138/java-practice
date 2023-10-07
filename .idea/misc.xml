@@ -5,6 +5,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/io-download-picture/pom.xml" />
+        <option value="$PROJECT_DIR$/socket-project/pom.xml" />
       </list>
     </option>
   </component>

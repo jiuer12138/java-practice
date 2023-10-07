@@ -36,9 +36,10 @@ public class DownloadImageByUrl {
             FileOutputStream fileOutputStream = new FileOutputStream(file);
             //print("fileOutputStream",fileOutputStream);
             ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+            //byte类型的数组，数组长度为1024
             byte[] bytes = new byte[1024];
             int length;
-
+            //print("bytes",bytes);
             while ((length=inputStream.read(bytes))>0){
                 byteArrayOutputStream.write(bytes,0,length);
             }
